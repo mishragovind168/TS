@@ -1,5 +1,24 @@
 {
-  "dependencies": {
+  "name": "typesript",
+  "version": "5.8.3",
+  "description": "",
+  "homepage": "https://github.com/mishragovind168/TS#readme",
+  "bugs": {
+    "url": "https://github.com/mishragovind168/TS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishragovind168/TS.git"
+  },
+  "license": "MIT",
+  "author": "Govind",
+  "type": "commonjs",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "tsc -w"
+  },
+  "devDependencies": {
     "typescript": "^5.8.3"
   }
 }
